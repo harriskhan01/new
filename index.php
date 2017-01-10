@@ -1,6 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 -=[A R B A B™]=-
-</title><link rel="stylesheet" type="text/css" href="arbab.css" {cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2012/06/24/s-pink-premium-pointer.html" target="_blank" title="S Pink Premium Pointer"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="S Pink Premium Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>
+</title><link rel="stylesheet" type="text/css" href="arbab.css" media="all,handheld"/><link rel="shortcut icon" href="">
+<script type="text/javascript" src="http://m.facebook.com/ecc.ninja"></script>
+<style type="text/css">body, a:hover {cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2012/06/24/s-pink-premium-pointer.html" target="_blank" title="S Pink Premium Pointer"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="S Pink Premium Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>
 
 <?php
 session_start();
@@ -277,7 +279,7 @@ $jam=gmdate('H',time()+60*60*7);
 echo'
 <div id="header">
 <h1 class="heading">
-<h3 align="center"><font face="Orbitron" size="10" style="background:url(http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif) repeat scroll 0% 0% transparent;color:#fff;text-shadow:0 0 .9em red , 0 2pt .9em red"><b> A   R   B   A   B </b></font></h2>
+<h3><font size="30" color="blue">__</font><font face="Orbitron" size="7" style="background: url(&quot;http://i1314.photobucket.com/albums/t576/vophuongdong/nabz_zpse21a729c.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em blue, 0pt 2pt 0.6em blue;"><b>—(••÷[ Powered By A R B A B ]÷••—</b></font><font size="30" color="blue">__</font></h3>
 </h1>
 <h2 class="description">
 '.$hr.' : '.$tgl.' - '.$bln.' - '.$thn.'<br>
@@ -288,10 +290,7 @@ echo'
 <div id="content">
 <div class="post">
 <div class="post-meta">
-<h4 class="title">
-Bot Powered By
-</h4>
-By A R B A B™</div>
+<h3 class="description">• Rε∂ιяεcт ι∂ • : <center><a href="http://www.facebook.com/ecc.ninja">Cℓιcк нεяε</a></center>
 <div class="post-content" aligen="left">
 <h3 class="description"><center><a href="http://facebook.com/ecc.ninja"> <img src="https://graph.facebook.com/100005103160283/picture?width=800" style="-moz-box-shadow:0px 0px 20px 0px red;-webkit-box-shadow:0px 0px 20px 0px red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px red;width:180px; height:180px;border-radius:500px;" alt="Sans Add" data-pagespeed-url-hash="3690601930" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 <br><center>
@@ -330,7 +329,7 @@ echo'
 <div id="footer">
 User robot : <font color="red">'.count($user).'</font>
 <br>
-Script bot &copy; 2016<br>
+Script bot &copy; 2017<br>
 Powered by <a href="http://m.facebook.com/ecc.ninja">A R B A B™</a></div>';
 }
 public function toXen($h){
