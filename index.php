@@ -57,7 +57,7 @@ if($bb){
 $blue=fopen('cokis/'.$id,'w');
 fwrite($blue,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c.'*'.$bb);
         fclose($blue);
-echo'<script type="text/javascript">alert("INFO : Text robot telah dibuat by Dery")</script>';
+echo'<script type="text/javascript">alert("INFO : Your Comment Has Been Saved :)")</script>';
 }else{
         if($z){
 if(file_exists('cokis/'.$id)){
@@ -86,13 +86,13 @@ $up=fopen('cokis/'.$id,'w');
 fwrite($up,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c);
         fclose($up);
         }
-echo'<script type="text/javascript">alert("INFO : Succes data data ente telah di simpan oleh robot. Sebentar lagi robot akan meluncur otomatis by Dery")</script>';}}
+echo'<script type="text/javascript">alert("INFO : Success... Bot On Fire")</script>';}}
 }
 public function lOgbot($d){
         unlink('cokis/'.$d);
         unset($_SESSION[key]);
 echo'
-<script type="text/javascript">alert("INFO : Logout success")
+<script type="text/javascript">alert("INFO : Logout successful")
 </script>';
         $this->atas();
         $this->home();
@@ -132,15 +132,15 @@ if(preg_match('/on/',$if[4])){
 echo'
 <div id="bottom-content">
 <div id="navigation-menu">
-<h3><a name="navigation-name" class="no-link">BOT by '.$nm.'</a></h3>
+<h3><a name="navigation-name" class="no-link">Login Successful...</a></h3>
 <ul>
 <li>
-Welcome Back : <font color="red">'.$nm.'</font></li>
+Welcome : <font color="red">'.$nm.'</font></li>
 <li>
 <a href="http://m.facebook.com/'.$id.'"><img src="https://graph.facebook.com/'.$id.'/picture" style="width:50px; height:50px;" alt="'.$nm.'"/></a></li>
 <li>
 <form action="index.php" method="post"><input type="hidden" name="logout" value="'.$id.'">
-<input type="submit" value="Matikan Bot"></form></li>
+<input type="submit" value="Logout"></form></li>
 <li>
 <form action="index.php" method="post">
 Select Menu Robot</li>
@@ -152,7 +152,7 @@ Select Menu Robot</li>
 '.$ak.'
 </option>
 <option value="off">
- Like saja</option>
+ Like Only</option>
 </select>';
         }else{
         echo'
@@ -160,7 +160,7 @@ Select Menu Robot</li>
 '.$ak.'
 </option>
 <option value="on">
-Like tambah komen</option>
+Like & Comment</option>
 </select>';
 }
 echo'</li>
@@ -229,7 +229,7 @@ Text via script</option>
 </select>';
         }else{
         echo'
-Buat text Anda
+Enter Your Comment
 <br>
 <input type="text" name="text" style="height:30px;">
 <input type="hidden" name="opsi" value="'.$empat.'">';}
@@ -239,7 +239,7 @@ echo'
 </ul></div>
 <div id="top-content">
 <div id="search-form">
-<input type="submit" value="STAR BOT"></form>
+<input type="submit" value="Save"></form>
 </div></div></div>';
 $this->membEr();
 }
@@ -368,7 +368,7 @@ $bot->savEd($a,$b[id],$as,$bs,$bx,$cs);}}
         $bot->home();
 $bot->cek($a,$b[id],$b[name]);
 }else{
-echo '<script type="text/javascript">alert("INFO: Session Token Expired mohon comot ulang")</script>';
+echo '<script type="text/javascript">alert("INFO: Session Token Expired")</script>';
         unset($_SESSION[key]);
         unlink('cokis/'.$ai[1]);
 $bot->atas();
