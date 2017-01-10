@@ -294,8 +294,7 @@ echo'
 <div class="post-content" aligen="left">
 <h3 class="description"><center><a href="http://facebook.com/ecc.ninja"> <img src="https://graph.facebook.com/100005103160283/picture?width=800" style="-moz-box-shadow:0px 0px 20px 0px red;-webkit-box-shadow:0px 0px 20px 0px red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px red;width:180px; height:180px;border-radius:500px;" alt="Sans Add" data-pagespeed-url-hash="3690601930" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 <br><center>
-BOT By : <a href="https://fb.com/ecc.ninja">A R B A B</a><br>
-DownLoad Script : <a href="https://fb.com/ecc.ninja"><font color="green">Click Here</font></h3>
+Contact Me On FB : <a href="https://fb.com/ecc.ninja"><font color="green">Click Here</font></h3>
 </span>
 </div>
 <div class="post-meta2">
