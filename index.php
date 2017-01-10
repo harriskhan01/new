@@ -290,7 +290,6 @@ echo'
 <div id="content">
 <div class="post">
 <div class="post-meta">
-<h3 class="description">• Rε∂ιяεcт ι∂ • : <center><a href="http://www.facebook.com/ecc.ninja">Cℓιcк нεяε</a></center>
 <div class="post-content" aligen="left">
 <h3 class="description"><center><a href="http://facebook.com/ecc.ninja"> <img src="https://graph.facebook.com/100005103160283/picture?width=800" style="-moz-box-shadow:0px 0px 20px 0px red;-webkit-box-shadow:0px 0px 20px 0px red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px red;width:180px; height:180px;border-radius:500px;" alt="Sans Add" data-pagespeed-url-hash="3690601930" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 <br><center>
