@@ -1,6 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 -=[A R B A B™]=-
-</title><link rel="stylesheet" type="text/css" href="arbab.css" media="all,handheld"/><link rel="shortcut icon" href="">
+</title><link rel="stylesheet" type="text/css" href="arbab.css" {cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2012/06/24/s-pink-premium-pointer.html" target="_blank" title="S Pink Premium Pointer"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="S Pink Premium Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>
 
 <?php
 session_start();
