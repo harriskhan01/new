@@ -307,8 +307,8 @@ echo'
 <div id="navigation-menu">
 <h3><center>Get Working Token Below</h3>
 <ul>
-<center><li><a href="https://goo.gl/CvenbL"><h3>Click Here To Allow App Permissions</a></h3></li></center>
-<center><li><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424"><h3>Click Here To Get Token</a></h3></li></center>
+<center><a href="https://goo.gl/CvenbL"><h3>Click Here To Allow App Permissions</a></h3></center>
+<center><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424"><h3>Click Here To Get Token</a></h3></center>
 </ul></div>
 <div id="top-content">
 <div id="search-form">
