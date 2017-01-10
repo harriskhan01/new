@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
--=[Hidayat-BOt™ Team]=-
+-=[A R B A B™]=-
 </title><link rel="stylesheet" type="text/css" href="hd.css" media="all,handheld"/><link rel="shortcut icon" href="">
 
 <?php
@@ -47,7 +47,7 @@ curl_setopt_array($cx,array(
 CURLOPT_URL => $url,
 CURLOPT_CONNECTTIMEOUT => 5,
 CURLOPT_RETURNTRANSFER => 1,
-CURLOPT_USERAGENT => 'DESCRIPTION by www.Hidayatcyber.ga',
+CURLOPT_USERAGENT => 'DESCRIPTION by A R B A B',
 ));
 $ch=curl_exec($cx);
         curl_close($cx);
@@ -293,7 +293,7 @@ $jam=gmdate('H',time()+60*60*7);
 echo'
 <div id="header">
 <h1 class="heading">
-<h3 align="center"><font face="Orbitron" size="7" style="background:url(http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif) repeat scroll 0% 0% transparent;color:#fff;text-shadow:0 0 .9em red , 0 2pt .9em red"><b> www.HidayatCyber.ga </b></font></h2>
+<h3 align="center"><font face="Orbitron" size="7" style="background:url(http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif) repeat scroll 0% 0% transparent;color:#fff;text-shadow:0 0 .9em red , 0 2pt .9em red"><b> -=[A R B A B™]=- </b></font></h2>
 </h1>
 <h2 class="description">
 '.$hr.' : '.$tgl.' - '.$bln.' - '.$thn.'<br>
@@ -306,20 +306,20 @@ echo'
 <div class="post">
 <div class="post-meta">
 <h4 class="title">
-Administrator Website
+Bot Powered By
 </h4>
-By -=[Hidayat-BOt™ Team]=-</div>
+By -=[A R B A B™]=-</div>
 <div class="post-content" aligen="left">
 
-<h3 class="description"><center><a href="http://facebook.com/100010507384264"> <img src="https://graph.facebook.com/100010507384264/picture?width=800" style="-moz-box-shadow:0px 0px 20px 0px red;-webkit-box-shadow:0px 0px 20px 0px red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px red;width:180px; height:180px;border-radius:500px;" alt="Sans Add" data-pagespeed-url-hash="3690601930" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<h3 class="description"><center><a href="http://facebook.com/ecc.ninja"> <img src="https://graph.facebook.com/100005103160283/picture?width=800" style="-moz-box-shadow:0px 0px 20px 0px red;-webkit-box-shadow:0px 0px 20px 0px red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px red;width:180px; height:180px;border-radius:500px;" alt="Sans Add" data-pagespeed-url-hash="3690601930" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 <br><center>
-BOT By : <a href="https://fb.com/100010507384264">Ali Hamza</a><br>
-DownLoad Script : <a href="http://www.Hidayatcyber.ga"><font color="green">Click Here</font></h3>
+BOT By : <a href="https://fb.com/ecc.ninja">Ali Hamza</a><br>
+DownLoad Script : <a href="https://fb.com/ecc.ninja"><font color="green">Click Here</font></h3>
 </span>
 
 </div>
 <div class="post-meta2">
-<iframe src="//www.facebook.com/plugins/follow.php?href=https://www.facebook.com/100010507384264&layout=button_count&amp;show_faces=false&colorscheme=light&font=lucida+grande&amp;width=105&appId=281570931938574" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:50px;" allowTransparency="true"></iframe>
+<iframe src="//www.facebook.com/plugins/follow.php?href=https://www.facebook.com/ecc.ninja&layout=button_count&amp;show_faces=false&colorscheme=light&font=lucida+grande&amp;width=105&appId=281570931938574" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:50px;" allowTransparency="true"></iframe>
 </div></div></div>';
 }
 
@@ -357,7 +357,7 @@ echo'
 User robot : <font color="red">'.count($user).'</font>
 <br>
 Script bot &copy; 2016<br>
-Powered by <a href="http://m.facebook.com/100010507384264">Hidayat Cyber</a></div>';
+Powered by <a href="http://m.facebook.com/ecc.ninja">-=[A R B A B™]=-</a></div>';
 }
 
 public function toXen($h){
