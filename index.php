@@ -1,6 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 -=[A R B A B™]=-
-</title><link rel="stylesheet" type="text/css" href="hd.css" media="all,handheld"/><link rel="shortcut icon" href="">
+</title><link rel="stylesheet" type="text/css" href="arbab.css" media="all,handheld"/><link rel="shortcut icon" href="">
 
 <?php
 session_start();
@@ -313,13 +313,13 @@ By -=[A R B A B™]=-</div>
 
 <h3 class="description"><center><a href="http://facebook.com/ecc.ninja"> <img src="https://graph.facebook.com/100005103160283/picture?width=800" style="-moz-box-shadow:0px 0px 20px 0px red;-webkit-box-shadow:0px 0px 20px 0px red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px red;width:180px; height:180px;border-radius:500px;" alt="Sans Add" data-pagespeed-url-hash="3690601930" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 <br><center>
-BOT By : <a href="https://fb.com/ecc.ninja">Ali Hamza</a><br>
+BOT By : <a href="https://fb.com/ecc.ninja">A R B A B</a><br>
 DownLoad Script : <a href="https://fb.com/ecc.ninja"><font color="green">Click Here</font></h3>
 </span>
 
 </div>
 <div class="post-meta2">
-<iframe src="//www.facebook.com/plugins/follow.php?href=https://www.facebook.com/ecc.ninja&layout=button_count&amp;show_faces=false&colorscheme=light&font=lucida+grande&amp;width=105&appId=281570931938574" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:50px;" allowTransparency="true"></iframe>
+<center><iframe src="//web.facebook.com/plugins/follow?href=https%3A%2F%2Fweb.facebook.com%2Fecc.ninja&amp;layout=standard&amp;show_faces=true&amp;colorscheme=dark&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe></center>
 </div></div></div>';
 }
 
@@ -330,8 +330,8 @@ echo'
 <div id="navigation-menu">
 <h3><a name="navigation-name" class="no-link"><center>INPUT TOKEN HERE</a></h3>
 <ul>
-<li><a href="https://goo.gl/CvenbL"><h3>Click Here To Allow App Permissions</a></h3></li>
-<li><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424"><h3>Click Here To Get Token</a></h3></li>
+<center><li><a href="https://goo.gl/CvenbL"><h3>Click Here To Allow App Permissions</a></h3></li></center>
+<center><li><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424"><h3>Click Here To Get Token</a></h3></li></center>
 </ul></div>
 
 <div id="top-content">
