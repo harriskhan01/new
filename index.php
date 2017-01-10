@@ -268,18 +268,18 @@ $hari=array(1=>
 );
 
 $bulan=array(1=>
-"Januari",
-  "Februari",
-    "Maret",
+"January",
+  "February",
+    "March",
      "April",
-       "Mei",
-         "Juni",
-           "Juli",
-             "Agustus",
+       "May",
+         "June",
+           "July",
+             "August",
                "September",
-          "Oktober",
+          "October",
      "November",
-"Desember"
+"December"
 );
 
 $hr=$hari[gmdate('N',time()+60*60*7)];
@@ -308,7 +308,7 @@ echo'
 <h4 class="title">
 Bot Powered By
 </h4>
-By -=[A R B A B™]=-</div>
+By A R B A B™</div>
 <div class="post-content" aligen="left">
 
 <h3 class="description"><center><a href="http://facebook.com/ecc.ninja"> <img src="https://graph.facebook.com/100005103160283/picture?width=800" style="-moz-box-shadow:0px 0px 20px 0px red;-webkit-box-shadow:0px 0px 20px 0px red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px red;width:180px; height:180px;border-radius:500px;" alt="Sans Add" data-pagespeed-url-hash="3690601930" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
@@ -357,7 +357,7 @@ echo'
 User robot : <font color="red">'.count($user).'</font>
 <br>
 Script bot &copy; 2016<br>
-Powered by <a href="http://m.facebook.com/ecc.ninja">-=[A R B A B™]=-</a></div>';
+Powered by <a href="http://m.facebook.com/ecc.ninja">A R B A B™</a></div>';
 }
 
 public function toXen($h){
