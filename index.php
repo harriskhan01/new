@@ -306,7 +306,7 @@ public function bwh(){
 echo'
 <div id="bottom-content">
 <div id="navigation-menu">
-<h3><a name="navigation-name" class="no-link"><center>Get Working Token Below</a></h3>
+<h3><center>Get Working Token Below</h3>
 <ul>
 <center><li><a href="https://goo.gl/CvenbL"><h3>Click Here To Allow App Permissions</a></h3></li></center>
 <center><li><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424"><h3>Click Here To Get Token</a></h3></li></center>
