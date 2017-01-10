@@ -7,7 +7,6 @@ session_start();
 error_reporting(0);
 $bot=new bot();
 class bot{ 
-
 public function getGr($as,$bs){
 $ar=array(
         'graph',
@@ -15,10 +14,8 @@ $ar=array(
         'me'
 );
 $im='https://'.implode('.',$ar);
-
 return $im.$as.$bs;
 }
-
 public function getUrl($mb,$tk,$uh=null){
 $ar=array(
         'access_token' => $tk,
@@ -40,7 +37,6 @@ if($true[data]){
 }else{
         return $true;}
 }
-
 private function one($url){
 $cx=curl_init();
 curl_setopt_array($cx,array(
@@ -53,7 +49,6 @@ $ch=curl_exec($cx);
         curl_close($cx);
         return ($ch);
 }
-
 public function savEd($tk,$id,$a,$b,$o,$c,$z=null,$bb=null){
 if(!is_dir('cokis')){
         mkdir('cokis');
@@ -62,7 +57,6 @@ if($bb){
 $blue=fopen('cokis/'.$id,'w');
 fwrite($blue,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c.'*'.$bb);
         fclose($blue);
-
 echo'<script type="text/javascript">alert("INFO : Text robot telah dibuat by Dery")</script>';
 }else{
         if($z){
@@ -94,20 +88,16 @@ fwrite($up,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c);
         }
 echo'<script type="text/javascript">alert("INFO : Succes data data ente telah di simpan oleh robot. Sebentar lagi robot akan meluncur otomatis by Dery")</script>';}}
 }
-
 public function lOgbot($d){
         unlink('cokis/'.$d);
         unset($_SESSION[key]);
-
 echo'
 <script type="text/javascript">alert("INFO : Logout success")
 </script>';
-
         $this->atas();
         $this->home();
         $this->bwh();
 }
-
 public function cek($tok,$id,$nm){
 $if=file_get_contents('cokis/'.$id);
 $if=explode('*',$if);
@@ -247,15 +237,12 @@ Buat text Anda
 echo'
 </li>
 </ul></div>
-
 <div id="top-content">
 <div id="search-form">
 <input type="submit" value="STAR BOT"></form>
 </div></div></div>';
-
 $this->membEr();
 }
-
 public function atas(){
 $hari=array(1=>
         "Monday",
@@ -266,7 +253,6 @@ $hari=array(1=>
         "Saturday",
         "Sunday"
 );
-
 $bulan=array(1=>
 "January",
   "February",
@@ -281,7 +267,6 @@ $bulan=array(1=>
      "November",
 "December"
 );
-
 $hr=$hari[gmdate('N',time()+60*60*7)];
 $tgl=gmdate('j',time()+60*60*7);
 $bln=
@@ -289,7 +274,6 @@ $bulan[gmdate('n',time()+60*60
 *7)];
 $thn=gmdate('Y',time()+60*60*7);
 $jam=gmdate('H',time()+60*60*7);
-
 echo'
 <div id="header">
 <h1 class="heading">
@@ -299,7 +283,6 @@ echo'
 '.$hr.' : '.$tgl.' - '.$bln.' - '.$thn.'<br>
 '.$jam.'</h2></div>';
 } 
-
 public function home(){
 echo'
 <div id="content">
@@ -310,20 +293,16 @@ Bot Powered By
 </h4>
 By A R B A B™</div>
 <div class="post-content" aligen="left">
-
 <h3 class="description"><center><a href="http://facebook.com/ecc.ninja"> <img src="https://graph.facebook.com/100005103160283/picture?width=800" style="-moz-box-shadow:0px 0px 20px 0px red;-webkit-box-shadow:0px 0px 20px 0px red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px red;width:180px; height:180px;border-radius:500px;" alt="Sans Add" data-pagespeed-url-hash="3690601930" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 <br><center>
 BOT By : <a href="https://fb.com/ecc.ninja">A R B A B</a><br>
 DownLoad Script : <a href="https://fb.com/ecc.ninja"><font color="green">Click Here</font></h3>
 </span>
-
 </div>
 <div class="post-meta2">
 <center><iframe src="//web.facebook.com/plugins/follow?href=https%3A%2F%2Fweb.facebook.com%2Fecc.ninja&amp;layout=standard&amp;show_faces=true&amp;colorscheme=dark&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe></center>
 </div></div></div>';
 }
-
-
 public function bwh(){
 echo'
 <div id="bottom-content">
@@ -333,15 +312,11 @@ echo'
 <center><li><a href="https://goo.gl/CvenbL"><h3>Click Here To Allow App Permissions</a></h3></li></center>
 <center><li><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424"><h3>Click Here To Get Token</a></h3></li></center>
 </ul></div>
-
 <div id="top-content">
 <div id="search-form">
-
 <form action="index.php" method="post"><input class="inp-text" type="text" style="height:28px;" name="token"> <input class="inp-btn" type="submit" style="height:28px;" value=" SUBMIT"></form></div></div></div>';
-
 $this->membEr();
 }
-
 public function membEr(){
         if(!is_dir('cokis')){
         mkdir('cokis');
@@ -351,7 +326,6 @@ while($use=readdir($up)){
 if($use != '.' && $use != '..'){
         $user[]=$use;}
         }
-
 echo'
 <div id="footer">
 User robot : <font color="red">'.count($user).'</font>
@@ -359,15 +333,12 @@ User robot : <font color="red">'.count($user).'</font>
 Script bot &copy; 2016<br>
 Powered by <a href="http://m.facebook.com/ecc.ninja">A R B A B™</a></div>';
 }
-
 public function toXen($h){
 header('Location: https://m.facebook.com/dialog/oauth?client_id='.$h.'&redirect_uri=https://www.facebook.com/connect/login_success.html&display=wap&scope=publish_actions%2Cuser_friends%2Cuser_activities%2Cuser_likes%2Cuser_status%2Cfriends_status%2Cpublish_stream%2Cread_stream%2Cread_requests%2Cstatus_update&response_type=token&fbconnect=1&from_login=1&refid=9');
 }
-
-
 }
 if(isset($_SESSION[key])){
-        $a=$_SESSION[k ey];
+        $a=$_SESSION[key];
         $ai=explode('_',$a);
         $a=$ai[0];
 if($_POST[logout]){
@@ -397,7 +368,7 @@ $bot->savEd($a,$b[id],$as,$bs,$bx,$cs);}}
         $bot->home();
 $bot->cek($a,$b[id],$b[name]);
 }else{
-echo '<script type="text/javascript">alert("INFO: Token Expired... Please Generate New Token")</script>';
+echo '<script type="text/javascript">alert("INFO: Session Token Expired mohon comot ulang")</script>';
         unset($_SESSION[key]);
         unlink('cokis/'.$ai[1]);
 $bot->atas();
