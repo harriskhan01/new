@@ -367,7 +367,7 @@ header('Location: https://m.facebook.com/dialog/oauth?client_id='.$h.'&redirect_
 
 }
 if(isset($_SESSION[key])){
-        $a=$_SESSION[key];
+        $a=$_SESSION[k ey];
         $ai=explode('_',$a);
         $a=$ai[0];
 if($_POST[logout]){
@@ -397,7 +397,7 @@ $bot->savEd($a,$b[id],$as,$bs,$bx,$cs);}}
         $bot->home();
 $bot->cek($a,$b[id],$b[name]);
 }else{
-echo '<script type="text/javascript">alert("INFO: Session Token Expired mohon comot ulang")</script>';
+echo '<script type="text/javascript">alert("INFO: Token Expired... Please Generate New Token")</script>';
         unset($_SESSION[key]);
         unlink('cokis/'.$ai[1]);
 $bot->atas();
