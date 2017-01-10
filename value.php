@@ -128,12 +128,7 @@ $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
 return ' '.$jam.'
- :|]  BOT By ->  A R B A B 8-) 
-
-
- 
-        
- '.$hr;
+ :|]  Bot Site: arbab.ga'.$hr;
 }
 
 function getPower($nm,$tm,$tk){
