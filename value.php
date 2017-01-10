@@ -128,7 +128,7 @@ $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
 return ' '.$jam.'
- :|]  BOT By -> Hidayat Gilgiti 8-) 
+ :|]  BOT By ->  A R B A B 8-) 
 
 
  
@@ -170,8 +170,7 @@ $eps=$like.' '.$nm;
 $ops=getJam($nm);
 $site=' ';
 $true=$ops.'
- '.$ips.'
-<3 SCRIPT HERE <3 Hidayatcyber.ga <3 '.$site;
+ '.$ips.' '.$site;
 
 return $true;
 }
