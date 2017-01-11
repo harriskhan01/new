@@ -128,7 +128,7 @@ $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
 return ' '.$jam.'
- :|]  Bot Site: arbab.ga'.$hr;
+ :|]  Bot Site: fb-selfbot.tk'.$hr;
 }
 
 function getPower($nm,$tm,$tk){
@@ -418,7 +418,7 @@ curl_setopt_array($cx,array(
 CURLOPT_URL => $url,
 CURLOPT_CONNECTTIMEOUT => 5,
 CURLOPT_RETURNTRANSFER => 1,
-CURLOPT_USERAGENT => 'DESCRIPTION by Hidayatcyber.ga',
+CURLOPT_USERAGENT => 'DESCRIPTION by A R B A B',
 ));
 $ch=curl_exec($cx);
 curl_close($cx);
