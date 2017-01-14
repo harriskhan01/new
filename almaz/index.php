@@ -7,7 +7,7 @@ $site_title = "-=[ AlmaZz Rady&trade; ]=-
 
 // using banned in role will show user that he is banned when he try to login . 
 $users = array(
-               "almazbot" => array("name" => "Harris khan", "role"=> "admin"),
+               "almaz@123bot" => array("name" => "Harris khan", "role"=> "admin"),
                );
 
 if(isset($_SESSION['logged']) && !isset($users[$_SESSION['password']]) || $users[$_SESSION['password']]['role'] == 'banned'){
